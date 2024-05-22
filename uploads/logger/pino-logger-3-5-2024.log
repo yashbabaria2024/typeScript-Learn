@@ -1,0 +1,52 @@
+{"level":30,"time":"9:40:58 AM","pid":5583,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:40:58 AM","pid":5583,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"9:55:38 AM","pid":6122,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:55:38 AM","pid":6122,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"9:57:11 AM","pid":6345,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:57:11 AM","pid":6345,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"9:57:21 AM","pid":6430,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:57:21 AM","pid":6430,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"9:57:59 AM","pid":6523,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:57:59 AM","pid":6523,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"9:59:01 AM","pid":6795,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:59:01 AM","pid":6795,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"10:01:11 AM","pid":7454,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"10:01:11 AM","pid":7454,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"10:13:14 AM","pid":8535,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"10:13:14 AM","pid":8535,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"10:19:25 AM","pid":10020,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"10:19:25 AM","pid":10020,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"10:19:29 AM","pid":10103,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"10:19:29 AM","pid":10103,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:19:02 AM","pid":10896,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:19:02 AM","pid":10896,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:19:04 AM","pid":10972,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:19:04 AM","pid":10972,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:45:42 AM","pid":11727,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:45:42 AM","pid":11727,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:45:44 AM","pid":11802,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:45:44 AM","pid":11802,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:45:49 AM","pid":11881,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:45:49 AM","pid":11881,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:45:51 AM","pid":11902,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:45:51 AM","pid":11902,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"11:56:49 AM","pid":12287,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"11:56:49 AM","pid":12287,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:26:15 PM","pid":14280,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:26:15 PM","pid":14280,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:26:36 PM","pid":14418,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:26:36 PM","pid":14418,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:53:58 PM","pid":15351,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:53:58 PM","pid":15351,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:54:00 PM","pid":15396,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:54:00 PM","pid":15396,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:54:01 PM","pid":15440,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:54:01 PM","pid":15440,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:54:04 PM","pid":15456,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:54:04 PM","pid":15456,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:55:04 PM","pid":15643,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:55:04 PM","pid":15643,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:55:12 PM","pid":15776,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:55:12 PM","pid":15776,"hostname":"yash-babaria","msg":"DB Connected"}
+{"level":30,"time":"3:55:14 PM","pid":15802,"hostname":"yash-babaria","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"3:55:14 PM","pid":15802,"hostname":"yash-babaria","msg":"DB Connected"}

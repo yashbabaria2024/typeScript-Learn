@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Prescription</title>
+       <link rel="stylesheet" href="/css/loaderComponent.css">
+      <script src="/javascript/loaderComponent.js"></script>
+  <link rel="stylesheet" href="/css/sideBar/newSidebar.css" />
+  <link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="/css/prescription/editPrescription.css"/>
+  <link rel="stylesheet" href="/sweetalert2/sweetalert2.min.css">
+  <script src="/sweetalert2/sweetalert2.min.js" defer></script>
+  <style>
+    #a5-doctor-prescription-active {
+      background-color: #0969da;
+      transform: translate(5px);
+      border-radius: 5px;
+    }
+
+    #a5-doctor-prescription-active a,
+    #a5-doctor-prescription-active i {
+      color: #ffffff;
+    }
+  </style>
+  <!-- <script src="/javascript/prescription/editPrescription.js"></script> -->
+</head>
+<body onload="focus()">
+  <div class="center" id="loader"></div>
+  <div class="A4-section">
+    <div class="A4-container">
+      <%- include('../../common/newSidebar/doctorSidebar.ejs') %>
+
+      <div class="A4-main">
+        <p class="A4-back-btn A4-btn" onclick="back()"><img src="/assets/adminPanel/icons/back-iceblue.svg" alt="Back"> Back</p>
+        
+        <div class="A4-patientname">
+        <h2 class="A4-p-title">Patient Name:</h2>
+        <p class=A4-p-data><input type="text" value="" class="A4-table-content" id="data1" name="patient_name" readonly></p>
+        </div><br>
+
+        <div class="A4-appointmentdate">
+        <h2 class="A4-p-title">Appointment Date:</h2>
+        <p class="A4-p-data"><input type="text" value="" class="A4-table-content" id="data2" name="appointment_date" readonly></p>
+        </div>
+        <div class="A4-content">
+
+          <h3 class="A4-heading1">Edit your Prescription here:</h3>
+          
+          <form action="" id="myForm">
+          <table class="myTable">
+            <tr>
+              <td class="A4-table-title">Diagnosis</td>
+              <td class="A4-table-data"><input type="text" value="" class="A4-table-content" id="data3" name="diagnosis"></td>
+            </tr>
+            <tr>
+              <td class="A4-table-title">Prescription</td>
+              <td class="A4-table-data"><textarea name="prescription" id="data4" class="A4-table-content"></textarea></td>
+            </tr>
+          </table>
+          </form>
+        </div>
+        <div class="A4-editPrescription-Button">
+          <input type="button" value="Edit" id="A4-Edit-Button" onclick="editPrescription(`<%= id %>`)">
+        </div>
+        <input type="hidden" value="<%= id %>" id="id">
+        
+      </div>
+    </div>
+  </div>
+  <script src="/javascript/prescription/editPrescription.js"></script>
+
+</body>
+</html>

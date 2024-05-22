@@ -1,0 +1,50 @@
+.a7-div-field {
+  display: flex;
+  align-items: center;
+}
+
+.a7-mediInfo-color {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.307);
+  border-radius: 5px;
+  display: flex;
+    gap: 15px;
+}
+
+.a7-medInfo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(100, 161, 232);
+  height: 275px;
+}
+
+.a7-mediInfo-box {
+  height: 350px;
+  width: 250px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  background-color: #315e788d;
+  color: rgb(245, 233, 220);
+
+  border-radius: 30px;
+}
+
+.a7-FieldData{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.a7-presc-scroll{
+  height: 170px;
+  overflow: scroll;
+}
+
+.a7-sticky{
+background: #7f9fb2;
+position: sticky;
+top: 0px;
+}

@@ -1,0 +1,58 @@
+<div class="a5-sidenav">
+  <div class="a5-sidenavupperbox">
+    <div class="a5-profile">
+      <div class="a5-profilephoto">
+        <a href="/patient/view/profile"><img src="/assets/sideBar/profile-icon-png-898.png" alt="profile" class="a5-profileimage" /></a>
+      </div>
+      <div class="a5-accountname">
+        <p class="a5-username"></p>
+        <p class="a5-useremail"></p>
+      </div>
+    </div>
+    <div class="a5-logout">
+      <p class="a5-btn-logout" onclick="logout(event)"><a href="/logout" id="a5-logout">Log out</a></p>
+    </div>
+  </div>
+
+  <div class="a5-lists">
+    <div class="a5-list-item" onclick="window.location.href=`/patient`" id="a5-patient-dashboard-active">
+      <i class="fa-solid fa-house a5-list-item-img"></i>
+      <a>Home</a>
+    </div>
+    <div class="a5-list-item" onclick="window.location.href=`/patient/doctors/all`" id="a5-patient-doctor-active">
+      <i class="fa-solid fa-briefcase-medical a5-list-item-img"></i>
+      <a>All Doctors</a>
+    </div>
+    <div class="a5-list-item" onclick="window.location.href=`/patient/upcomingSlots`" id="a5-patient-session-active">
+      <i class="fa-solid fa-calendar-days a5-list-item-img"></i>
+      <a href="/patient/upcomingSlots">Scheduled Sessions</a>
+    </div>
+    <div class="a5-list-item" onclick="window.location.href=`/patient/payments/history`" id="a5-patient-payment-active">
+      <i class="fa-solid fa-calendar-check a5-list-item-img"></i>
+      <a>My Payment History</a>
+    </div>
+  
+  </div>
+</div>
+
+
+<script src="/javascript/auth/logout.js"></script>
+<script>
+  const doctorsCount = document.getElementById('doctors-count');
+  const patientsCount = document.getElementById('patients-count');
+  const appointmentsCount = document.getElementById('appointments-count');
+  const revenueCount = document.getElementById('revenue-count');
+
+  let user = JSON.parse(localStorage.getItem('userinfo'));
+
+  if(user.profile.trim()){
+    document.querySelector('.a5-profileimage').setAttribute('src',`/imgs/${user.profile}`)
+   
+  }
+
+  document.querySelector('.a5-username').innerHTML = `${user.fname+ " "+user.lname}`;
+  document.querySelector('.a5-useremail').innerHTML = user.email;
+
+</script>
+
+

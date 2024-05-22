@@ -1,0 +1,265 @@
+:root {
+  --light-blue: #b3d3ea;
+  --brown: #e7e7e7;
+  --blue: #0969da;
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.A4-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.A4-title {
+  padding: 54px 400px;
+  h1 {
+    /* text-align: center; */
+    font-size: 30px;
+  }
+}
+.A4-main {
+  padding: 10px;
+  margin-left: 350px;
+}
+/* .A4-Content {
+  table,
+  tr,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  table{
+    width: 1088px;
+  }
+} */
+
+#tabledata{
+  text-align: center;
+}
+
+.A4-PrescriptionDetails {
+  font-size: 20px;
+  /* padding: 75px 194px; */
+  padding: 71px 134px;
+}
+#diagnosis {
+  width: 372px;
+  height: 34px;
+  font-size: 18px;
+}
+#prescription {
+  font-size: 18px;
+}
+#myForm {
+  background-color: aliceblue;
+  padding: 22px;
+  border-radius: 22px;
+}
+#a5-btn-search {
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: var(--light-blue);
+  padding-top: 11px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+#a5-btn-search:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.a5-searchbox {
+  border: 1px solid var(--black);
+  display: flex;
+  border-radius: 3px;
+  border: 1px solid;
+}
+.a5-search {
+  margin: 35px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* input {
+  border: none;
+  width: 400px;
+} */
+#a5-searchPatient{
+  border: none;
+  width: 400px;
+}
+#a5-searchPatient:focus{
+    outline: none;
+}
+#A4-content{
+  border-collapse: collapse;
+  border: 1px solid var(--brown);
+  border-radius: 5px;
+  width: 100%;
+  margin: 15px 0;
+}
+td {
+  text-align: center;
+  padding: 10px 12px;
+  word-wrap: anywhere;
+}
+/* #buttons{
+  min-width: 300px
+} */
+th {
+  box-shadow: 0 2px var(--blue);
+  padding: 10px 0;
+  text-align: center;
+}
+#A4-getpdf-btn{
+  height: 30px;
+  width: 112px;
+  background-color: var(--light-blue);
+  border: 1px aliceblue;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #2c5777;
+  margin: 0px 5px;
+}
+#A4-editprescription-btn{
+  height: 30px;
+  width: 150px;
+  background-color: var(--light-blue);
+  border: 1px aliceblue;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #2c5777;
+  margin: 0px 5px;
+}
+#A4-getpdf-btn:hover,#A4-editprescription-btn:hover{
+  background-color: var(--blue);
+  color: var(--white);
+}
+.A4-btn {
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  margin: 5px auto;
+
+  display: flex;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  background-color: var(--light-blue);
+}
+
+.A4-btn:hover {
+
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.A4-back-btn {
+  margin: 50px 0;
+}
+
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 1500px;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+  text-align: center;
+}
+.white_content {
+  display: none;
+  position: absolute;
+  top: 4%;
+  left: 25%;
+  width: 850px;
+  height: 1100px;
+  padding: 16px;
+  border: 5px solid aliceblue;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+  
+}
+.download-btn{
+  position: relative;
+  background-color: var(--light-blue);
+  color: #2c5777;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 1002;
+  overflow: auto;
+  height: 50px;
+  width: 162px;
+  left: 165px;
+  top: 780px;
+  border: 1px solid var(--light-blue);
+  border-radius: 7px;
+  cursor: pointer;
+
+}
+.download-btn:hover{
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
+}
+.cross-btn{
+  display: none;
+  position: relative;
+  background-color: var(--light-blue);
+  color: #2c5777;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 1002;
+  overflow: auto;
+  height: 33px;
+  width: 31px;
+  left: 670px;
+  top: -386px;
+  border: 1px solid var(--light-blue);
+  cursor: pointer;
+}
+/* .download-btn{
+  display: none;
+  position: absolute;
+  top: 7%;
+  left: 25%;
+  width: 50%;
+  height: 1100px;
+  padding: 16px;
+  border: 5px solid aliceblue;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+} */
+/* #download-Btn{
+  width: 500px;
+  height: 200px;
+} */
+div:where(.swal2-container).swal2-center>.swal2-popup {
+  grid-column:2;
+  grid-row:2;
+  place-self:center center;
+  width: 800px;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+
+  background-color: var(--blue);
+
+}
